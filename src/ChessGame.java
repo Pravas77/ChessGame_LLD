@@ -36,7 +36,7 @@ public class ChessGame {
 
 
         if(killedPiece != null && killedPiece.getPieceType() == PieceType.KING){
-            System.out.println(expectedPieceColor + "won");
+            System.out.println(expectedPieceColor + " won the game");
             gameState = expectedPieceColor == PieceColor.WHITE ? GameState.WHITE_WIN : GameState.BLACK_WIN; }
 
         expectedPieceColor = expectedPieceColor == PieceColor.WHITE ? PieceColor.BLACK : PieceColor.WHITE;
